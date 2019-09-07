@@ -1,10 +1,12 @@
 body {
     background-image: url("https://www.edcinteractive.com//wp-content/uploads/2014/12/gallery1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     body {
-        background-image: url('http://127.0.0.1:5500/dist/img/pizza.jpg');
+        background-image: url('https://mrryanfloyd.github.io/img/pizza.jpg');
         background-repeat: no-repeat;
         
     }
