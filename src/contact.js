@@ -18,10 +18,10 @@ const renderContact = () => {
         }
         contactTabContent.innerHTML = `
     Location:
-    8292 Brewerton Rd, Cicero NY 13039
-    (315) 699-2775
-    ccp@cicerycountrypizza.com
-    Service Area: Cicero & the Northern Syracuse Suburbs
+    8292 Brewerton Rd, Cicero NY 13039<br>
+    (315) 699-2775<br>
+    ccp@cicerycountrypizza.com<br>
+    Service Area: Cicero & the Northern Syracuse Suburbs<br>
     Located Two Blocks South of Route 11 & 31, next to the M&T Bank™
 `;
         document.getElementById('content').appendChild(contactTabContent);

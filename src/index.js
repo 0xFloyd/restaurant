@@ -15,7 +15,7 @@ const pageHeader = (() => {
     mainContent.setAttribute('id', 'content');
     pageHeader.className = 'pageHeader';
     pageHeaderTitle.className = "pageHeaderTitle";
-    pageHeaderTitle.innerHTML = "APizza Authentic Italian Pizza";
+    pageHeaderTitle.innerHTML = "Cicero Country Pizza";
 
     pageHeader.appendChild(pageHeaderTitle);
     pageDocument.appendChild(pageHeader);
