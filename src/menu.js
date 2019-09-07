@@ -5,7 +5,7 @@ const renderMenu = () => {
     let menuTabContent = document.createElement('div');
     menuTab.className = 'nav-item';
     menuTabLink.className = "nav-link";
-    menuTabContent.className = "tabContent";
+    menuTabContent.className = "tabContent col-lg-6";
 
     const rendermenuTab = (() => {
         menuTab.appendChild(menuTabLink);

@@ -5,7 +5,7 @@ const renderContact = () => {
     let contactTabContent = document.createElement('div');
     contactTab.className = 'nav-item';
     contactTabLink.className = "nav-link";
-    contactTabContent.className = "tabContent";
+    contactTabContent.className = "tabContent col-lg-6";
 
     const renderContactTab = (() => {
         contactTab.appendChild(contactTabLink);
@@ -16,7 +16,14 @@ const renderContact = () => {
         while (divContent.hasChildNodes()) {
             divContent.removeChild(divContent.firstChild);
         }
-        contactTabContent.innerHTML = 'Extra stuff and more';
+        contactTabContent.innerHTML = `
+    Location:
+    8292 Brewerton Rd, Cicero NY 13039
+    (315) 699-2775
+    ccp@cicerycountrypizza.com
+    Service Area: Cicero & the Northern Syracuse Suburbs
+    Located Two Blocks South of Route 11 & 31, next to the M&T Bank™
+`;
         document.getElementById('content').appendChild(contactTabContent);
     }
    
